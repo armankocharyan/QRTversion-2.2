@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+
+    background-image: url("Back.jpg");
+
+
+    /* Full height */
+    height: 100%;
+    width: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Player1*/
+.game-info1{list-style: none}
+.name-info1{position: absolute; bottom: 70px;left: 5px}
+.rank-info1{position: absolute; bottom: 50px;left: 5px}
+.shield-info1{position: absolute; bottom: 30px;left: 5px}
+.bp-info1{position: absolute; bottom: 10px;left: 5px}
+
+/*Player2*/
+
+.name-info2{position: absolute; left: 5px;margin-top: 20%}
+.rank-info2{position: absolute; left: 5px;margin-top: 21.3%}
+.shield-info2{position: absolute; left: 5px;margin-top: 22.6%}
+.bp-info2{position: absolute; left: 5px;margin-top: 23.9%}
+
+/*Player3*/
+
+.name-info3{position: absolute; top: 70px;left: 5px;margin-left: 40%}
+.rank-info3{position: absolute; top: 50px;left: 5px;margin-left: 40%}
+.shield-info3{position: absolute; top: 30px;left: 5px;margin-left: 40%}
+.bp-info3{position: absolute; top: 10px;left: 5px;margin-left: 40%}
+
+/*Player4*/
+
+.name-info4{position: absolute; right: 5px;margin-left: 80%; margin-top: 20%}
+.rank-info4{position: absolute; right: 5px;margin-left: 80%;margin-top: 21.3%}
+.shield-info4{position: absolute; right: 5px;margin-left: 80%;margin-top: 22.6%}
+.bp-info4{position: absolute; right: 5px;margin-left: 80%;margin-top: 23.9%}
+
+
+.send-btn {margin: 25px 0 0 5px}
+
+#main-content {
+    max-width: 940px;
+    padding: 2em 3em;
+
+    margin: 0 auto 20px;
+    background-color: transparent;
+    border: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.CardStyle {
+
+    height: auto;
+    width: 80px;
+}
+
+.StoryStyle {
+    position: absolute;
+    height: auto;
+    width: 100px;
+    top: 15%;
+    margin-left: 625px;
+    margin-right: 625px;
+}
+
+.Ask{
+    margin-left: 36%;
+    margin-top: 200px;
+}
+
+#yes{
+    margin-left: 40%;
+}
+#no{
+    margin-left: 2%;
+
+}
+#boar{
+    margin-left: 36%
+}
+
+
+/*.alert>p, .alert>ul{
+    margin-left: 36%;
+    margin-top: 200px;
+}*/
+
+/*#PlayerCards{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}*/
+
+#PlayerCards {
+    position:absolute;
+    bottom:0;
+    right:100px
+
+}
+
+
+#ButtonSpace{
+    position: absolute;
+    bottom: 125px;
+    width: 100%;
+    margin-left: 650px;
+    margin-right: 500px;
+}
+
